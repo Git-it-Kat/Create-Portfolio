@@ -1,89 +1,61 @@
+<!-- create a portfolio -->
+<!--Referrence list:W3schools-->
+<!--https://www.w3schools.com/-->
+
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
+    <!-- Required meta tags always come first -->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <!-- <meta name ="description"content="Meta tags are snippets of text that describe a page's content.(worldStream).
-    and what  will show up in the search ie.: google."-->
+    and what  will show up in the search ie.: google." in title -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- build:css css/main.css -->
+    <link rel="stylesheet" href="styles.css" />
     <title><strong>Profile</strong></title>
 </head>
 
-<body style="background-color: rgb(66, 170, 127)">
+<body>
 
     <h1><strong><em>Profile- *YOUR NAME HERE*</em></strong></h1>
-    <div>
-        <section id="steps">
-            <img src="images/trn.png" />
-            <h2>Sorry no recent picture of me. To be updated at a later time.:)</h2>
-
-            <section id="about me">
-                <h2><strong><em>About Me *THIS IS AN EXAMPLE OF SOME INFORMATION TO PUT HERE*</em></strong></h2>
+    <div class="row row-content align-items-center">
+        <div id="steps">
+            <img src="images/trn.png" alt="self picture">
+            <div class="col">
+                <h2>Please replace image with one of your own.</h2>
                 <ul>
                     <li>
-                        <em>I am a Denver Native.</em>
-                    </li>
-                    <li>
-                        <em>I love to create, So Im creative or at least I think I am.</em>
-                    </li>
-                    <li>
-                        <em>Try to reinvent the wheel (myself)!</em>
+                        <em> How to add and image.</em>
+                        click on <a href="https://www.w3schools.com/html/html_images.asp">
+                            Images</a>
                     </li>
                 </ul>
-            </section>
-    </div>
-    <div>
-        <section id="interest">
-            <h2><strong><em>Interest</em></strong></h2>
-            <ol>
-                <li>
-                    <em>Learning new</em><strong> STUFF</strong>
-                </li>
-                <li>
-                    <em>Cooking:</em>
-                    This is the link to <strong><em></em>Tasty's</strong><a href="https://www.recipestasty.com/"> a
-                        basic recipe site </a>
-
-                </li>
-                <li>
-                    <em>Coding:</em>One great resource for coding questions is <a href="https://stackoverflow.com/">
-                        stackoverflow </a>
-
-                </li>
-            </ol>
-        </section>
-    </div>
-    <section id="Quotes">
-        <h2><strong><em>Inspirational Quotes</em></strong></h2>
-
-        <h3><strong>First Thought Of The Day.</strong></h3>
-        <div class="row">
-            <div class="column">
-                <img src="images/devquote.png" alt="What we need! " style="width:25%">
             </div>
-            <div class="column">
-                <h3><strong>Just A Thought</strong></h3>
-                <img src="images/Justathought.png" alt="a thought" style="width: 25%;" />
+            <div class="learn content">
+                Basics in understanding html,review and understand click on the links in the list to get a better
+                understanding.
+                <ol>
+                    <li><a href="https://www.w3schools.com/html/html_headings.asp">Headings</a></li>
+                    <li><a href="https://www.w3schools.com/html/html_paragraphs.asp">Paragraphs</a></li>
+                    <li><a href="https://www.w3schools.com/html/html_links.asp">Links</a></li>
+                    <li><a href="https://www.w3schools.com/html/html_lists.asp">Lists</a></li>
+                    <li><a href="https://www.w3schools.com/html/html_tables.asp">Tables</a></li>
+                    <li><a href="https://www.w3schools.com/html/html_forms.asp">Forms</a></li>
+                </ol>
             </div>
-        </div>
-    </section>
-    <h2><strong><em>Audio</em></strong></h2>
+            <nav class="nav">
+                <h2>How to add a navigation element to this page. I would start out with adding: index, about and a
+                    project page</h2>
+                <ul>
+                    <li>
+                        <em>how to add a navigation</em>
+                        click on <a href="https://www.w3schools.com/css/css_navbar.asp">Navigation bar</a>
+                    </li>
+                </ul>
 
-    <audio src="audio/[MP3DOWNLOAD.TO] Dance Monkey (Audio) - Tones And I-320k.mp3" controls loop>
-        Your browser does not support HTML5 video. Here is <a
-            href="audio/[MP3DOWNLOAD.TO] Dance Monkey (Audio) - Tones And I-320k.mp3"> a
-            link to the audio</a> instead.
-    </audio>
-    </section>
-    <ul>
-        <li>
-            Just a taste of music !
-        </li>
-
-    </ul>
-    </section>
-    </div>
+            </nav>
 
 </body>
 
