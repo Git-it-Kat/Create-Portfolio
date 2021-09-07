@@ -1,3 +1,4 @@
+
 body{
     background-image: linear-gradient(to right, rgba(0, 204, 255, 0), rgb(0, 132, 255));       
     width: 100%;
@@ -64,6 +65,7 @@ li.menu_list{
     shape-outside: -moz-linear-gradient(black,blue);
 
 }
+
 
     
 
