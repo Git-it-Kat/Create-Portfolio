@@ -1,62 +1,76 @@
-<!-- create a portfolio -->
-<!--Referrence list:W3schools-->
-<!--https://www.w3schools.com/-->
-
 <!DOCTYPE html>
-<html lang="en">
+<html>
+    <head>
 
-<head>
-    <!-- Required meta tags always come first -->
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <!-- <meta name ="description"content="Meta tags are snippets of text that describe a page's content.(worldStream).
-    and what  will show up in the search ie.: google." in title -->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- build:css css/main.css -->
-    <link rel="stylesheet" href="styles.css" />
-    <title><strong>Profile</strong></title>
-</head>
+        <!-- The title for SEO & browser tabs -->
+        <title> Contact Page </title>
 
-<body>
+        <!-- Viewport meta tag -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <h1><strong><em>Profile- *YOUR NAME HERE*</em></strong></h1>
-    <div class="row row-content align-items-center">
-        <div id="steps">
-            <img src="images/trn.png" alt="self picture">
-            <div class="col">
-                <h2>Please replace image with one of your own.</h2>
-                <ul>
-                    <li>
-                        <em> How to add and image.</em>
-                        click on <a href="https://www.w3schools.com/html/html_images.asp">
-                            Images</a>
-                    </li>
-                </ul>
-            </div>
-            <div class="learn content">
-                Basics in understanding html,review and understand click on the links in the list to get a better
-                understanding.
-                <ol>
-                    <li><a href="https://www.w3schools.com/html/html_headings.asp">Headings</a></li>
-                    <li><a href="https://www.w3schools.com/html/html_paragraphs.asp">Paragraphs</a></li>
-                    <li><a href="https://www.w3schools.com/html/html_links.asp">Links</a></li>
-                    <li><a href="https://www.w3schools.com/html/html_lists.asp">Lists</a></li>
-                    <li><a href="https://www.w3schools.com/html/html_tables.asp">Tables</a></li>
-                    <li><a href="https://www.w3schools.com/html/html_forms.asp">Forms</a></li>
-                </ol>
-            </div>
-            <nav class="nav">
-                <h2>How to add a navigation element to this page. I would start out with adding: index, about and a
-                    project page</h2>
-                <ul>
-                    <li>
-                        <em>how to add a navigation</em>
-                        click on <a href="https://www.w3schools.com/css/css_navbar.asp">Navigation bar</a>
-                    </li>
-                </ul>
+        <!-- Gridlex -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/gridlex/2.7.1/gridlex.min.css">
 
+        <!-- Fontawesome -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+        <!-- Google Fonts  -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;1,200;1,300;1,400;1,600&display=swap" rel="stylesheet">  
+
+        <!-- My own custom stylesheet -->
+        <link rel="stylesheet" href="/style.css">
+
+    </head>
+    <body> 
+
+        <header class="grid">
+            <div class="col-6_sm-12-middle padded-0 center-sm">
+                <h1> John Smith </h1>   
+            </div>  
+            <nav class="col-6_sm-12-middle right padded-0 center-sm"> 
+                <a href="#about-me"> About me </a>
+                <a href="#projects"> Projects </a>
+                <a href="#contact"> Contact </a>
             </nav>
+        </header> 
 
-</body>
 
+        <!-- Dark intro section  -->
+        <section class="grid bg-green light-text padded">
+            <div class="col-7_sm-12 bg-image bg-picture tall-70">
+
+            </div> 
+            <div class="col-5_sm-12-middle padded">
+                <h2> Thanks for taking an interest </h2>
+                <p> If you would like to know more or request a digital resume please feel free to contact in the following options</p>
+                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi nam, architecto ea id sit, nemo impedit officiis qui eum ullam veritatis. Quia recusandae laudantium dolore voluptatum. Qui doloribus atque at.</p>
+            </div>
+
+        </section>
+
+        <!-- Icon Grid  -->
+        <section class="padded grid center icon-section" id="contact">
+            <div class="col-12 center padded-b"> 
+                <div class="col-6_sm-12 padded center-sm">
+                    <h2 class="large-Txt"> Let's Connect. </h3>
+                        <nav> 
+                            <a href="mailto:hello@myemailaddress.com"> <i class="fas fa-envelope"></i> </a>
+                            <a href="#"> <i class="fab fa-linkedin"></i> </a>
+                            <a href="#"> <i class="fab fa-github"></i> </a>
+                        </nav>
+                    </div>
+            </div>
+        </section>
+
+        <!-- Footer  -->
+        <footer class="grid bg-dark light-text padded padded-b-0">
+            <div class="col-12 center padded-t">
+                <p class="subtle"> Copyright 2021</p>
+            </div>
+
+        </footer>
+
+    </body>
 </html>
